@@ -19,7 +19,7 @@ public class it26101979Lab9Q4 {
     }
 
     public static void printDetails(String name, double finalMark, char grade) {
-        System.out.println(name + "\t\t" + finalMark + "\t\t" + grade);
+        System.out.println(name + "\t\t" + String.format("%.2f",finalMark) + "\t\t" + grade);
     }
 
     public static void main(String[] args) {
